@@ -54,6 +54,6 @@ spec:
     app: web
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 9376
+      port: 8000
+      targetPort: 8000
       nodePort: 30100
