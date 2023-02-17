@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+  labels:
+    app: postgres
+data:
+  DATABASE_USER: postgres
+  DATABASE_NAME: lcotubers
+  DATABASE_HOST: postgres

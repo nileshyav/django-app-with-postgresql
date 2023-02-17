@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "D:\lco_app\tubers\manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+  File "C:\Users\nilesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\__init__.py", line 1, in <module>
+    from django.utils.version import get_version
+ModuleNotFoundError: No module named 'django.utils'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\lco_app\tubers\manage.py", line 22, in <module>
+    main()
+  File "D:\lco_app\tubers\manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Traceback (most recent call last):
+  File "D:\lco_app\tubers\manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+  File "C:\Users\nilesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\__init__.py", line 1, in <module>
+    from django.utils.version import get_version
+ModuleNotFoundError: No module named 'django.utils'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\lco_app\tubers\manage.py", line 22, in <module>
+    main()
+  File "D:\lco_app\tubers\manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
